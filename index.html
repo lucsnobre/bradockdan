@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skins CS-GO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/images.jfif">
+    <script src="./script.js" defer></script>
+    
+</head>
+<body>
+    <section class="roleta">
+        <h1>Confira algumas <span class="destaque">skins</span><br>disponíveis</h1>
+        <div class="carousel-container">
+            <div class="carousel" id="carousel"></div>
+            <div class="carousel-nav carousel-next" onclick="nextSkins()">
+                <img src="./img/icons8-arrow-48.png" alt="Avançar">
+        </div>
+    </section>
+
+    <section class="search-section">
+        <div class="search-content">
+            <h2>Escolha a skin que preferir</h2>
+            <div class="search-box">
+                <input type="text" id="skinInput" placeholder="Digite o nome da skin">
+                <button onclick="searchSkin()">Buscar</button>
+            </div>
+        </div>
+        <div class="image-box" id="skinImageBox"></div>
+    </section>
+
+    
