@@ -12,7 +12,7 @@ let skins = []
         function updateCarousel() {
             const carousel = document.getElementById('carousel')
             carousel.innerHTML = ''
-            for (let i = currentIndex; i < currentIndex + 6; i++) {
+            for (let i = currentIndex; i < currentIndex + 8; i++) {
                 if (i < skins.length) {
                     const skin = skins[i]
                     let skinContainer = document.createElement('div')
